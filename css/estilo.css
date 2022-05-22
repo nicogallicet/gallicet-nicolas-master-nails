@@ -201,6 +201,52 @@ header {
   padding: 8px;
   border-radius: 3px; }
 
+/**Membresias**/
+.contenedor {
+  padding: 30px;
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto; }
+  .contenedor .tabla {
+    width: 33%;
+    height: 550px;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 0px pink;
+    padding: 60px;
+    text-align: center;
+    flex-grow: inherit;
+    color: black; }
+    .contenedor .tabla h2 {
+      font-size: 30px;
+      margin-bottom: 35px; }
+    .contenedor .tabla img {
+      width: 64px;
+      margin-bottom: 95px; }
+    .contenedor .tabla h3 {
+      font-size: 30px;
+      margin-bottom: 20px; }
+    .contenedor .tabla p {
+      display: block;
+      margin-bottom: 20px; }
+    .contenedor .tabla .btn {
+      color: white;
+      padding: 6px 12px;
+      border: none;
+      border-radius: 5px;
+      background-color: #0D6EFD; }
+
+.tabla:hover {
+  background-color: blue;
+  color: white;
+  transition: 0.5s all;
+  cursor: pointer;
+  transform: scale(1.1); }
+
 /** Footer**/
 .footer {
   padding: 40px 0;
