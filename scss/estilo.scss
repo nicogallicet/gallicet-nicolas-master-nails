@@ -33,8 +33,61 @@ header {
     border-radius: 3px;
 }
 
-/**Membresias**/
+/**Banner**/
+.banner {
+    margin-top: 20px;
+    position: relative;
+    .bannerImg {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+    .bannerText {
+        width: 90%;
+        color: white;
+        text-align: center;
+        position: absolute;
+        z-index: 1500;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        font-size: 50px;
+        font-weight: bold;
+        
+    }
+}
 
+.banner:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+    z-index: 1000;
+    top: 0;
+}
+
+
+/**Contenido**/
+
+.mainColor {
+    margin-top: 10px;
+    background-color: pink;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    h2 {
+        font-weight: bold;
+        margin: 15px 0;
+        font-size: 50px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .mainTxt {
+        font-size: 20px;
+    }
+}
+
+/**Membresias**/
 .contenedor {
     padding: 30px;
     display: flex;
