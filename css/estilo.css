@@ -225,7 +225,7 @@ header {
       font-size: 30px;
       margin-bottom: 35px; }
     .contenedor .tabla img {
-      width: 64px;
+      width: 100px;
       margin-bottom: 95px; }
     .contenedor .tabla h3 {
       font-size: 30px;
@@ -241,7 +241,7 @@ header {
       background-color: #0D6EFD; }
 
 .tabla:hover {
-  background-color: blue;
+  background-color: black;
   color: white;
   transition: 0.5s all;
   cursor: pointer;
